@@ -1,5 +1,5 @@
 # read(legado)：阅读书源集合
-整理阅读书源（自用）
+## 整理阅读书源（自用）
 
 ### 阅读3.0：阅读是一款可以自定义来源阅读网络内容的工具，为广大网络文学爱好者提供一种方便、快捷舒适的试读体验。
 
@@ -17,8 +17,6 @@
 | 阅读源总数 | 有效书源数 | 无效书源数 | 重复书源数 |
 |------------|------------|------------|--------------|
 | <span style="color:green;">6244</span> | <span style="color:blue;">3946</span> | <span style="color:red;">2298</span> | <span style="color:orange;">1806</span> |
-<!-- 更新位置结束 -->
-![shuyuan.png](icons/shuyuan.png)
 #### 🚩 效验书源链接
 ```
 https://raw.githubusercontent.com/shidahuilang/shuyuan/shuyuan/good.json
@@ -37,7 +35,6 @@ https://raw.githubusercontent.com/shidahuilang/shuyuan/shuyuan/tts.json
 # 一程书源合集
 
 #### 🗞️ 书源书源合集
-#### 🗂️ 订阅源合集链接
 ```
 https://raw.githubusercontent.com/yc-sy/yd/refs/heads/master/sy.json
 ```
@@ -52,16 +49,8 @@ https://bitbucket.org/xiu2/yuedu/raw/master/shuyuan ( 网页打开乱码正常�
 
 https://raw.ixnic.net/XIU2/Yuedu/master/shuyuan
 
-https://raw.nuaa.cf/XIU2/Yuedu/master/shuyuan
+# 源仓库
+## 「 源仓库最新地址发布页 」
 
-https://raw.yzuu.cf/XIU2/Yuedu/master/shuyuan
+[YckCeo.Vip](https://yckceo.vip/)
 
-https://raw.kkgithub.com/XIU2/Yuedu/master/shuyuan
-
-https://jsd.onmicrosoft.cn/gh/XIU2/Yuedu/master/shuyuan
-
-https://github.moeyy.xyz/.../XIU2/Yuedu/master/shuyuan
-
-https://ghproxy.cc/.../XIU2/Yuedu/master/shuyuan
-
-https://mirror.ghproxy.com/.../XIU2/Yuedu/master/shuyuan
