@@ -32,10 +32,10 @@ https://bitbucket.org/xiu2/yuedu/raw/master/shuyuan ( 网页打开乱码正常�
 
 https://raw.ixnic.net/XIU2/Yuedu/master/shuyuan
 
-## Yiove 书源仓库
+#  Yiove 书源仓库
 网站链接：[https://shuyuan.yiove.com/](https://shuyuan.yiove.com/)
 
-# 「源仓库」 源仓库最新地址发布页
+# 「源仓库」最新地址发布页
 
 [YckCeo.Vip](https://yckceo.vip/)
 
