@@ -169,3 +169,5 @@ https://raw.githubusercontent.com/shidahuilang/shuyuan-bak/main/good.json
 ---
 
 最后核验：2026-11-05。发现链接失效，欢迎开 Issue。
+
+<a href="https://star-history.com/#liufuyou/read&Date"><img src="https://api.star-history.com/svg?repos=liufuyou/read&type=Date&legend=top-left" alt="star history" width="620"></a>
