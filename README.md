@@ -6,7 +6,7 @@
 
 **目录**：[关于 App 本身](#关于-app-本身) · [第三方版本](#第三方版本) · [怎么导入](#怎么导入) · [书源来源](#书源来源) · [大灰狼](#大灰狼原仓库已失效自担风险) · [TTS 语音](#tts-语音) · [安全提示](#安全提示) · [常见问题](#常见问题) · [免责声明与许可](#免责声明与许可)
 
-## 关于 App 本身
+## 关于阅读（Legado）App 本身
 
 原仓库 `gedoor/legado` 已在 2026 年清空：代码、发行版、标签全删，只留一份公告。作者称项目涉及侵权、已承担相应法律责任，并劝停止传播。
 
@@ -79,7 +79,7 @@ https://cdn.gh-proxy.org/https://raw.githubusercontent.com/XIU2/Yuedu/master/shu
 
 作者 [XIU2/Yuedu](https://github.com/XIU2/Yuedu)（GPL-3.0）。2026-11-05 实测 6 个地址全通、大小一致。
 
-- 后 3 条是第三方加速代理，代理方能看到你请求了什么，别拿它传私密内容
+- 后 3 条是第三方加速代理，代理方能看到你请求了什么.
 - 22 条里有 3 条是 `http://`，Android 9 起会因明文流量限制失败
 - 有几条作者自己标了「搜索暂不可用」「人机验证」，不是你网络的问题
 
@@ -122,9 +122,9 @@ https://github.com/shidahuilang/shuyuan-bak/blob/main/doc.md
 https://raw.githubusercontent.com/shidahuilang/shuyuan-bak/main/good.json
 ```
 
-这个包里有 10,301 处 `http://` 地址，Android 9 以上会直接失败；`@js:` 2,915 次、`java.` 5,768 次，低端机上导入和搜索都会明显变慢。
+这个包里有 10,301 处 `http://` 地址，Android 9 以上会直接失败；低端机上导入和搜索都会明显变慢。
 
-原仓库是因 ToS 被屏蔽的，备份仓会不会重演不好说。求稳就用 XIU2 那 22 条。
+原仓库是因 ToS 被屏蔽的。求稳就用 XIU2 那 22 条。
 
 </details>
 
