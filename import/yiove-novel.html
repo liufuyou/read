@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Yiove 星辰整理书源合集</title>
+<style>
+:root{color-scheme:light dark;--bd:#d8dee4;--fg:#1f2328;--dim:#59636e;--bg:#fff;--card:#f6f8fa;--acc:#1f6feb}
+@media(prefers-color-scheme:dark){:root{--bd:#30363d;--fg:#e6edf3;--dim:#9198a1;--bg:#0d1117;--card:#161b22;--acc:#4493f8}}
+*{box-sizing:border-box}
+body{margin:0 auto;padding:24px 18px 60px;max-width:680px;background:var(--bg);color:var(--fg);
+font:16px/1.7 -apple-system,"PingFang SC","Microsoft YaHei",sans-serif}
+h1{font-size:22px;margin:0 0 6px}
+p.lead{color:var(--dim);margin:0 0 22px;font-size:14px}
+.card{border:1px solid var(--bd);border-radius:12px;padding:18px;margin-bottom:16px;background:var(--card)}
+.card h2{font-size:17px;margin:0 0 4px}
+.meta{color:var(--dim);font-size:13px;margin:0 0 14px}
+a.go{display:block;text-align:center;padding:13px;border-radius:9px;background:var(--acc);color:#fff;
+text-decoration:none;font-weight:600}
+a.go:active{opacity:.8}
+.fallback{margin-top:12px;font-size:13px;color:var(--dim)}
+code{display:block;margin-top:6px;padding:9px 10px;border:1px solid var(--bd);border-radius:7px;
+background:var(--bg);font-size:12px;word-break:break-all;color:var(--fg)}
+.note{margin-top:24px;font-size:13px;color:var(--dim)}
+.note b{color:var(--fg)}
+</style>
+</head>
+<body>
+<h1>Yiove 星辰整理书源合集</h1>
+<p class="lead">这一页只有这一份书源。</p>
+<div class="card">
+  <h2>Yiove 星辰整理书源合集</h2>
+  <p class="meta">714 条 · 3.3 MB · 仅小说</p>
+  <a class="go" href="#" data-src="../sources/yiove-novel.json">一键导入「阅读」</a>
+  <p class="fallback">按钮没反应就复制下面这条，去 App 里网络导入：<code data-src="../sources/yiove-novel.json">—</code></p>
+</div>
+<p class="note"><b>按钮是灰色或点了没反应？</b>微信、QQ 等内置浏览器会拦截 App 唤起链接，
+请点右上角「在浏览器打开」再试。没有装「阅读」的话，先去
+<a href="https://github.com/liufuyou/read#第三方版本">版本对照</a>里挑一个装。</p>
+<script>
+// 深链 src 必须写完整地址，按当前页面位置实时算，页面部署到哪都能用
+(function () {
+  var q = location.search;
+  document.querySelectorAll('[data-src]').forEach(function (el) {
+    var abs = new URL(el.dataset.src, document.baseURI);
+    if (q && !abs.search) abs.search = q;
+    var href = abs.href;
+    if (el.tagName === 'A') {
+      el.href = 'legado://import/bookSource?src=' + encodeURIComponent(href);
+    } else {
+      el.textContent = href;
+    }
+  });
+})();
+</script>
+</body>
+</html>

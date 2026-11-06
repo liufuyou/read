@@ -1,0 +1,27 @@
+{
+  "generated": "2026-11-06",
+  "files": [
+    {
+      "name": "yck-novel.json",
+      "title": "YCK 书单 1067（墨辰整理系列 7.1）",
+      "upstream": "https://www.yck2026.fun/yuedu/shuyuans/json/id/1067.json",
+      "count": 267,
+      "bytes": 3129288,
+      "size": "3.0 MB",
+      "sha256": "655e94086167d82f837245ffec74b8e0efebb3ac1641da421af6b70d10917ecb",
+      "upstream_count": 459,
+      "novel_count": 290
+    },
+    {
+      "name": "yiove-novel.json",
+      "title": "Yiove 星辰整理书源合集",
+      "upstream": "https://shuyuan-api.yiove.com/import/book-source-collection/f3f55c6e-723b-4055-b254-124c9d88c5cb",
+      "count": 714,
+      "bytes": 3421025,
+      "size": "3.3 MB",
+      "sha256": "bb37a89d9374c026910692aa736b185f482107b0c8705b64c19cbc665a2c494f",
+      "upstream_count": 970,
+      "novel_count": 869
+    }
+  ]
+}
